@@ -2,7 +2,7 @@
 
 import os
 
-for i in range (1,11):
+for i in range (1,4):
     if not os.path.exists(f"Chapter-{i}"):
         os.mkdir(f"Chapter-{i}")
         
