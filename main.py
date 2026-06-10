@@ -1,9 +1,18 @@
 #Write a python program to create Folders/Directories
 
+# import os
+
+# for i in range (1,4):
+#     if not os.path.exists(f"Chapter-{i}"):
+#         os.mkdir(f"Chapter-{i}")
+        
+# print("Folder Created Successfully!")
+
+
 import os
 
-for i in range (1,4):
+for i in range (1,5):
     if not os.path.exists(f"Chapter-{i}"):
         os.mkdir(f"Chapter-{i}")
         
-print("Folder Created Successfully!")
+print("Folder Created Successfully")
