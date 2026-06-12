@@ -9,10 +9,18 @@
 # print("Folder Created Successfully!")
 
 
+# import os
+
+# for i in range (1,5):
+#     if not os.path.exists(f"Chapter-{i}"):
+#         os.mkdir(f"Chapter-{i}")
+        
+# print("Folder Created Successfully")
+
 import os
 
-for i in range (1,5):
+for i in range(1,6):
     if not os.path.exists(f"Chapter-{i}"):
         os.mkdir(f"Chapter-{i}")
         
-print("Folder Created Successfully")
+print("Folder Created Successfully!!!")
