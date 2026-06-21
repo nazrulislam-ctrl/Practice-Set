@@ -4,6 +4,8 @@ import os
 
 folder= os.path.dirname(os.path.abspath(__file__))
 
+# Write a python program to create files in the current directory.
+
 for i in range(1,9):
     filename= os.path.join(folder, f"Problem-{i}.py")
     if not os.path.exists(filename):
